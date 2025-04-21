@@ -16,27 +16,27 @@ type Link = {
 const links: Link[] = [
   {
     name: "Dashboard",
-    href: "/admindashboard-2002",
+    href: "/",
     icon: MdDashboard,
   },
   {
     name: "Tables",
-    href: "/admindashboard-2002/tables",
+    href: "/tables",
     icon: MdTableChart,
   },
   {
     name: "Billing",
-    href: "/admindashboard-2002/billing",
+    href: "/billing",
     icon: MdReceipt,
   },
   {
     name: "Notifications",
-    href: "/admindashboard-2002/notifications",
+    href: "/notifications",
     icon: MdNotifications,
   },
   {
     name: "Pricing",
-    href: "/admindashboard-2002/pricing",
+    href: "/pricing",
     icon: FaDollarSign,
   },
 ];

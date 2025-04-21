@@ -23,20 +23,11 @@ function App() {
           <Header />
           <Suspense fallback={<Loading />}>
             <Routes>
-              <Route path="/admindashboard-2002" element={<Home />} />
-              <Route
-                path="/admindashboard-2002/billing"
-                element={<Billing />}
-              />
-              <Route path="/admindashboard-2002/tables" element={<Tables />} />
-              <Route
-                path="/admindashboard-2002/notifications"
-                element={<Notifications />}
-              />
-              <Route
-                path="/admindashboard-2002/pricing"
-                element={<Pricing />}
-              />
+              <Route path="/" element={<Home />} />
+              <Route path="/billing" element={<Billing />} />
+              <Route path="/tables" element={<Tables />} />
+              <Route path="/notifications" element={<Notifications />} />
+              <Route path="/pricing" element={<Pricing />} />
             </Routes>
           </Suspense>
           <Footer />
